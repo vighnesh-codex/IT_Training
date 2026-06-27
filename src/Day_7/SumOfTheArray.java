@@ -1,4 +1,4 @@
-package Day_7.class_task;
+package Day_7;
 
 public class SumOfTheArray {
     public static void main(String [] args){
