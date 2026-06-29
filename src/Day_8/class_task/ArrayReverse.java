@@ -1,4 +1,4 @@
-package Day_8.class.task;
+package Day_8.class_task;
 
 public class ArrayReverse {
     public static void main(String[] args) {
