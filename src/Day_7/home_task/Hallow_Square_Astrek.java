@@ -1,4 +1,4 @@
-package Day_7.class_task;
+package Day_7.home_task;
 import java.util.Scanner;
 
 public class Hallow_Square_Astrek {

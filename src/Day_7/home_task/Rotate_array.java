@@ -1,4 +1,4 @@
-package Day_7.class_task;
+package Day_7.home_task;
 
 public class Rotate_array{
     public static void main(String[] args) {

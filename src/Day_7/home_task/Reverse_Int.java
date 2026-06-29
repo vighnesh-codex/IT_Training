@@ -1,4 +1,4 @@
-package Day_7.class_task;
+package Day_7.home_task;
 
 public class Reverse_Int {
     public static void main(String[] args) {
