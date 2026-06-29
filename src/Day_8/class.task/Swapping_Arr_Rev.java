@@ -1,4 +1,4 @@
-package Day_8;
+package Day_8.class.task;
 
 public class Swapping_Arr_Rev {
     public static void main(String[] args) {
