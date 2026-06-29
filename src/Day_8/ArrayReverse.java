@@ -8,8 +8,8 @@ public class ArrayReverse {
             m1[i] = arr[arr.length-1-i];
         }
         System.out.println("Reversed array:");
-        for (int i=0;i<m1.length;i++){
-            System.out.print(m1[i] + " ");
+        for (String item : m1) {
+            System.out.print(item + " ");
         }
     }
 }
