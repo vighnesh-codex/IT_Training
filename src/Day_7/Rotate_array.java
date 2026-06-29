@@ -11,9 +11,8 @@ public class Rotate_array{
             temp[(i + d) % n] = arr[i];
         }
 
-        for (int i = 0; i < n; i++) {
-            arr[i] = temp[i];
-        }
+        
+        System.arraycopy(temp, 0, arr, 0, n);
 
         System.out.println("Rotated array:");
         for (int i = 0; i < n; i++) {
