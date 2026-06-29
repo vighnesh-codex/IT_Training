@@ -1,4 +1,4 @@
-package Day_7;
+package Day_7.class_task;
 
 public class To_Find_Max {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Day_7;
+package Day_7.class_task;
 
 public class LabelBreak {
     public static void main(String [] args){

@@ -1,4 +1,4 @@
-package Day_7;
+package Day_7.class_task;
 
 public class Count_ODD_OR_EVEN {
     public static void main(String[] args) {

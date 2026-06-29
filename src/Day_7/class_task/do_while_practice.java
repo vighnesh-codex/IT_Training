@@ -1,4 +1,4 @@
-package Day_7;
+package Day_7.class_task;
 
 public class do_while_practice {
     public static void main(String [] args){

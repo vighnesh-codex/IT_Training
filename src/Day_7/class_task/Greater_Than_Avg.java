@@ -1,4 +1,4 @@
-package Day_7;
+package Day_7.class_task;
 
 public class Greater_Than_Avg {
     public static void main(String[] args) {
