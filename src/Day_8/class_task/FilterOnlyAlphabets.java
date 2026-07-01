@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class FilterOnlyAlphabets {
 
+    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String []x){
 
         Scanner sc = new Scanner (System.in);
@@ -31,7 +32,7 @@ public class FilterOnlyAlphabets {
 
 
 
-
+    sc.close();
 
     }
 

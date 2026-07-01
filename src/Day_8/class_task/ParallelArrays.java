@@ -6,6 +6,7 @@ public class ParallelArrays {
 
 
 
+    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String [] a){
      Scanner sc = new Scanner(System.in);
 
@@ -42,7 +43,7 @@ public class ParallelArrays {
 
 
        // System.out.print(1*prices[0]);
-
+    sc.close();
 
 
     }
