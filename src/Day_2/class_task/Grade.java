@@ -2,6 +2,7 @@ package Day_2.class_task;
 import java.util.Scanner;
 class Grade {
     public static void main(String[] args) {
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         if (a > 91 && a < 100) {

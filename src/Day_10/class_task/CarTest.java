@@ -5,8 +5,7 @@ import java.util.Scanner;
 
 public class CarTest {
    public static void main(String[] args){
-       Car c1 = new Car();
-
+       new Car();
    }
 }
 
@@ -16,6 +15,7 @@ class Car{
     int speed ;
     int maxSpeed;
 
+    @SuppressWarnings("ConvertToTryWithResources")
    Car() {
         Scanner sc = new Scanner (System.in);
         System.out.print("Enter the brand name: ");
