@@ -3,7 +3,7 @@ package Day_9.home_task;
 public class Rotate_Int_array_N_Times {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5};
-        int n = 3; // Number of times to rotate
+        int n = 3; 
 
         System.out.println("Original array:");
         printArray(arr);
@@ -16,7 +16,7 @@ public class Rotate_Int_array_N_Times {
 
     public static void rotateArray(int[] arr, int n) {
         int length = arr.length;
-        n = n % length; // Handle cases where n is greater than array length
+        n = n % length;
 
         reverseArray(arr, 0, length - 1);
         reverseArray(arr, 0, n - 1);

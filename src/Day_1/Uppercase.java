@@ -2,10 +2,8 @@ package Day_1;
 
 public class Uppercase {
 
-
     public static void main(String[] args) {
         char letter = 'a';
-
         if (letter >= 65 && letter <= 91) {
             System.out.println(letter + " is an uppercase");
         }

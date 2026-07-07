@@ -2,12 +2,8 @@ package Day_7.class_task;
 
 public class SecondMax {
 
-
    public static void main(String args[]){
-
-
-
-       int arr []  = {1,2,3,4,5};
+    int arr []  = {1,2,3,4,5};
     int max =0;
     int secondMax =0;
 
@@ -22,18 +18,4 @@ public class SecondMax {
             }
         System.out.println("Second Largest ="+ secondMax);
     }
-
-
-
-
-
-
-
-
    }
-
-
-
-
-
-

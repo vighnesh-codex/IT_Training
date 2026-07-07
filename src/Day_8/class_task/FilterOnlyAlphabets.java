@@ -7,35 +7,13 @@ public class FilterOnlyAlphabets {
     public static void main(String []x){
 
         Scanner sc = new Scanner (System.in);
-
-        // enter user name : insta@123
-
-        // op : insta
-
-    System.out.print("Enter your insta user name : ");
-
-
-       String  userName = sc.nextLine();
-
-
-       for(int i=0 ; i<userName.length();i++){
-
-
-           if (userName.charAt(i)>='a' && userName.charAt(i)<='z'){
-
-
-               System.out.print(userName.charAt(i));
-           }
-
-
-       }
-
-
-
+        System.out.print("Enter your insta user name : ");
+        String  userName = sc.nextLine();
+        for(int i=0 ; i<userName.length();i++){
+            if (userName.charAt(i)>='a' && userName.charAt(i)<='z'){
+            System.out.print(userName.charAt(i));
+            }
+        }
     sc.close();
-
     }
-
-
-
 }

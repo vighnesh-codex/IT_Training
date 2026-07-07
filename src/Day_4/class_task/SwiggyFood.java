@@ -3,15 +3,12 @@ package Day_4.class_task;
 import java.util.Scanner;
 class SwiggyFood{
     public static void main(String[] args){
-
         System.out.println("Enter 1 to Display Veg items");
         System.out.println("Enter 2 to Display Non-veg items");
         System.out.println("Enter 3 to Display Sweet and Dessert items");
         System.out.println("Enter 4 to Exit");
         System.out.print("Enter the Number :");
-
         Scanner sc=new Scanner(System.in);
-
         int num=sc.nextInt();
         if(num ==1){
             System.out.print("Veg items - Veg Biriyan,Idli,Dosa,Appam,Medu Vada");
