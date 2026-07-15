@@ -1,5 +1,4 @@
 package Day_17.class_task;
-import java.util.Arrays;
 import java.util.*;
 public class RemoveDup2 {
     public static void main(String[] args) {
@@ -15,7 +14,7 @@ public class RemoveDup2 {
         //then add all the element from the set to the num array
         //Write the code to remove the Duplicate
         //from the array
-        HashSet<Integer> hs = new HashSet<Integer>();
+        HashSet<Integer> hs = new HashSet<>();
         for(Integer i : nums) {
             hs.add(i);//take all the element from the HashSet and assigning to
             //nums Array

@@ -23,9 +23,9 @@ public class HashMapMarksGrading {
         char[] ch = name.toCharArray();
         System.out.println(Arrays.toString(ch));
 //        HashMap hm = new HashMap<Character, Integer>();
-        HashMap freq = new HashMap<Character, Integer>();
+        HashMap<Character, Integer> freq = new HashMap<>();
         for (Character c : ch) {
-            freq.put(c, (Integer) freq.getOrDefault(c, 0) + 1);
+            freq.put(c, freq.getOrDefault(c, 0) + 1);
         }
         System.out.print(freq);
 //            if(hm.containsKey(c)){

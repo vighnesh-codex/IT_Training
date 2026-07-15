@@ -5,7 +5,6 @@ public class Booking {
         try {
             bookTicket();
         } catch (InvalidAgeException e) {
-            e.printStackTrace();
             try {
                 bookTicket();
             } catch (InvalidAgeException ee) {

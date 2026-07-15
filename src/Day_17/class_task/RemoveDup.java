@@ -1,10 +1,9 @@
 package Day_17.class_task;
 import java.util.TreeSet;
-import java.util.Arrays;
 public class RemoveDup {
     public static void main(String [] args){
         int arr [] = {5,3,8,1,5,3,9};
-        TreeSet<Integer> ts = new TreeSet<Integer>();
+        TreeSet<Integer> ts = new TreeSet<>();
         for(Integer i : arr){
             ts.add(i);
         }

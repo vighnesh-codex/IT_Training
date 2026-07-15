@@ -1,6 +1,5 @@
 package Day_17.class_task;
 import java.util.ArrayList;
-import java.util.Arrays;
 public class RemoveArrayListsDuplicates {
     public static void main(String[] args) {
         int [] arr = {1, 2, 2, 3, 4, 4, 5};
@@ -14,8 +13,6 @@ public class RemoveArrayListsDuplicates {
         boolean dup = false;
         for(int i=0; i<a.size(); i++) {
             for (int j = i+1; j < a.size(); j++) {
-                if(a.contains(a.get(i)));
-//                a.remove();
                 if(a.get(i).equals(a.get(j))){
                     dup=true;
                     break;
